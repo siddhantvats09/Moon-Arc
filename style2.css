@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(246, 240, 240);
+    background-color: black;
+    background-image: url('bd_2.jgp');
+}
+
+#navigation-container {
+    position: relative;
+    background-color: #000000d8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.missnav{
+  position: fixed;
+  top: -8px;
+  
+}
+.hero{
+  background-image: url("bd_1.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: sticky;
+  background-size: cover;
+}
+
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-right: 30px;
+    padding-left: 830px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(250, 246, 227);
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 5px 15px;
+    font-size: 23px;
+}
+li a:hover{
+    color: rgb(95, 179, 239);
+    transition: 0.5s;
+}
+li:hover {
+    color :rgb(95, 179, 239);    
+    text-decoration: underline;
+  }
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#logo{
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.msn{
+    color: azure;
+}
+.heading{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(247, 248, 249);
+    font-family: 'arial','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 105px;
+}
+.heading2{
+  
+    text-align: center;
+    color: rgb(105, 160, 254);
+    padding-bottom: 15px;
+    font-family:  sans-serif;
+}
+.heading3{
+    
+    text-align: center;
+    border-radius: 30%;
+    font-size: 30px;
+    background-color: rgba(51, 51, 51, 0.174);
+    color: rgba(33, 238, 241, 0.804);
+    padding-top: 10px;
+    border: 4px solid rgba(103, 102, 102, 0.574);
+    font-family:  sans-serif;
+}
+.m1 img{
+    display: inline-block;
+    width: 200px;
+}
+.m2 img{
+    display: inline-block;
+    width: 200px;
+
+}
+
+  
+  .column {
+    float: left;
+    width: 45.33%;
+    padding: 5px;
+    padding-top: 35px;
+    padding-left: 40px;
+  }
+  .row{
+    width: 90%;
+    height:fit-content;
+    margin: auto;
+    justify-content: center;
+    height: 280px;
+  }
+  .row1{
+    width: 90%;
+    height:fit-content;
+    margin: auto;
+    justify-content: center;
+    height: 300px;
+  }
+  /*animation*/
+  #col1{
+    animation-name: maxx;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-iteration-count:1;
+    animation-fill-mode: both;
+    
+ }
+ @keyframes maxx{
+     from{
+        
+        float: left;
+        width: 100%;
+        padding-top: 400px;
+
+     }
+     to{
+        
+        float: left;
+        width: 100%;
+        
+     }
+ }
+#col2{
+    animation-name: mxx;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count:1;
+    animation-fill-mode: both;
+    
+}
+@keyframes mxx{
+    from{
+       
+       float: left;
+       width: 100%;
+       padding-top: 400px;
+
+    }
+    to{
+       
+       float: left;
+       width: 100%;
+       
+    }
+}  
+#row3h{
+    font-size: 35px;
+    font-family: monospace;
+    text-align: center;
+    color: rgb(9, 195, 204);
+    background-color: rgba(53, 53, 52, 0.215);
+}
+.row3{
+    width: 90%;
+    height:fit-content;
+    margin: auto;
+    justify-content: center;
+    height: 300px;
+}
+.row4{
+    width: 90%;
+    height:fit-content;
+    margin: auto;
+    justify-content: center;
+    height: 300px;
+}
+
+
+
+
+
+/* table css*/
+
+
+table{
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 30px;
+}
+#hurry{
+    text-align: center;
+    color: #426581;
+    background-color: #2639492c;
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    color: #a3a3a6;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  th,
+  td {
+    padding: 10px 15px;
+    vertical-align: middle;
+  }
+  thead {
+    background: #395870;
+    color: rgb(251, 246, 246);
+  }
+  th:first-child {
+    text-align: left;
+  }
+  tbody tr:nth-child(even) {
+    background: #f3f3f6;
+  }
+  td {
+    border-bottom: 1px solid #cecfd5;
+    border-right: 1px solid #cecfd5;
+  }
+  td:first-child {
+    border-left: 1px solid #cecfd5;
+  }
+  .book-title {
+    color: #3d5e78;
+    display: block;
+  }
+  .item-stock,
+  .item-qty {
+    text-align: center;
+    
+  }
+  .item-price {
+    text-align: right;
+  }
+  .item-multiple {
+    display: block;
+  }
+  tfoot {
+    text-align: right;
+  }
+  tfoot tr:last-child {
+    background: #f0f0f2;
+  }

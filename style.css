@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+}
+
+#logo {
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+ul {
+    display: inline-block;
+    padding-left: 1000px;
+}
+
+
+li {
+    display: inline-block;
+    padding-right: 22px;
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 35px;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+li:hover {
+    color :rgb(6, 121, 203);    
+    text-decoration: underline;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 22px
+
+}
+
+.navbar {
+    padding-top: 29px;
+    position: absolute;
+    z-index: 2;
+
+}
+#ho{
+    color:rgb(250, 246, 227);
+}
+#ho:hover{
+    color: rgb(121, 192, 246);
+    transition: 0.5s;
+}
+
+.moonimg {
+    position: absolute;
+    width: 660.63px;
+    left: 496.46px;
+    z-index: 0;
+    opacity: 0.99;
+    top: 25px;
+    padding-left: 0px;
+
+}
+#halm{
+    animation-name: max;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count:1;
+    animation-fill-mode: both;
+    
+ }
+ @keyframes max{
+     from{
+        
+    width: 0px;
+    left: 496.46px;
+    top: 250px;
+    padding-left: 0px;
+     }
+     to{
+        
+    width: 660.63px;
+    left: 496.46px;
+    top: 25px;
+    padding-left: 0px;
+     }
+ }
+
+
+.well {
+    position: absolute;
+    color: rgb(188, 192, 192);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 170px;
+    left: 340px;
+    font-size: 20px;
+}
+
+
+.tagline {
+    position: absolute;
+    font-size: 14px;
+    color:rgb(158, 6, 158);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 670px;
+    left: 200px;
+}
+/*animation*/
+.tagline{
+    animation-name: soiil;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    
+ }
+ @keyframes soiil{
+     from{
+        position: absolute;
+        font-size: 14px;
+        top: 750px;
+        left: 200px;
+     }
+     to{
+        position: absolute;
+        font-size: 14px;
+        top: 668px;
+        left: 290px;
+     }
+ }
+.tagline2{
+    position: absolute;
+    font-size: 15px;
+    color: rgba(183, 161, 249, 0.979);
+    font-family:sans-serif;
+    font-weight: 300;
+    top: 570px;
+    right: 278px;
+}
+/*animation*/
+.tagline2{
+    animation-name: soil;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    
+ }
+ @keyframes soil{
+     from{
+        font-size: 0px;
+        font-weight: 0;
+        top: 570px;
+        right: 0px;
+     }
+     to{
+        font-size: 15px;
+        font-weight: 300;
+        top: 570px;
+        right: 278px;
+         
+     }
+ }
+
+.tagline3{
+    position: absolute;
+    font-size: 30px;
+    color: rgba(249, 250, 251, 0.092);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    top: 290px;
+    right: 0px;
+    rotate:-90deg;
+}
+
+/* aerrow fo navigation*/
+ /*.fa-solid{
+    position: absolute;
+    font-size: 40px;
+    
+    color: rgba(171, 175, 175, 0.71);
+    top: 660px;
+    left: 790px;
+    opacity: 50%;
+}
+#aerrowicon{
+    animation-name: sol;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+ }
+ @keyframes sol{
+     from{
+         font-size: 40px;
+     }
+     to{
+        font-size: 50px;
+         
+     }
+ }*/
+ .moonrover{
+    align-items: center;
+    width: 0px;
+    left: 10px;
+    position: absolute;
+    top: 340px;
+    z-index: 2;
+    opacity: 20%;
+}
+
+/*page 2nd css {rocket section}*/
+
+.rocketsection{
+    color: antiquewhite;
+    top: 630px;
+    position: relative;
+    height: 500px;
+}
+
+.moonsurface{
+    top: 50px;
+    position: absolute;
+    width: 1519px;
+    opacity: 90%;
+}
+
+.tagline5{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #f7f7fa;
+    position: absolute;
+    top: 640px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    left: 39px;
+    z-index: 1;
+    border: 6px solid #fffeffa8;
+    height: 63px;
+    width: 430px;
+    text-align: center;
+    border-radius: 25%;
+    background-color: rgb(10, 10, 10);
+    rotate: 0deg;
+}
+/*moon rover animation*/
+
+#moonrr{
+    animation-name: soll;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count:1;
+    animation-fill-mode: both;
+ }
+ @keyframes soll{
+     from{
+        width: 0px;
+        left: 0px;
+        top: 340px;
+     }
+     to{
+        width: 440px;
+        left: 50px;
+        top: 270px;
+     }
+ }
+
+.tagline6 {
+    right: 50px;
+    position: absolute;
+    top: 200px;
+    z-index: 12;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(46, 47, 47, 0.271);
+    height: 330px;
+    width: 400px;
+    border: 4px solid rgba(43, 42, 42, 0.211);
+   
+}
+.tagline6 #h2{
+    color: rgb(249, 250, 250);
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+.tagline6 h3{
+    color: rgb(104, 244, 244);
+    padding-bottom: 15px;
+    text-align: center;
+}
+.tagline6 #ls{
+    font-size: 17px;
+    color: rgb(45, 45, 250);
+    padding-left: 12px;
+    padding-bottom: 20px;
+}
+.tagline6 p{
+    color: rgb(219, 216, 221);
+    font-family: monospace;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 700;
+    background-color: rgba(78, 78, 77, 0.405);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
